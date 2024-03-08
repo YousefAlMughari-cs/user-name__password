@@ -1,0 +1,49 @@
+body {
+    background-color: #eee;
+}   
+h1 {
+    position:absolute;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    right:0;
+    left: 380px;
+    align-items: center;
+    font-weight: bold;
+    background: red;
+    width: fit-content;
+    padding: 10px;
+}
+.nums {
+    text-align: center;
+    justify-content: center;
+    margin-top: 210px;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    h1 {
+        left: 0;
+        right: 0;
+        top: 50px;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .nums {
+        margin-top: 250px;
+    }
+}
